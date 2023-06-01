@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ball1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\ball1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="board1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\board\board1.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="branch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\branch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sound\Button.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chatForest_0" xml:space="preserve">
+    <value>Я Вам відповім якщо запитаєте і зачекаєте деякий час</value>
+  </data>
+  <data name="chatHero_0" xml:space="preserve">
+    <value>Що я хочу дізнатися?</value>
+  </data>
+  <data name="choice1_1f" xml:space="preserve">
+    <value>Обхитрувати</value>
+  </data>
+  <data name="choice1_1m" xml:space="preserve">
+    <value>Обхитрувати</value>
+  </data>
+  <data name="choice1_2f" xml:space="preserve">
+    <value>Домовитися</value>
+  </data>
+  <data name="choice1_2m" xml:space="preserve">
+    <value>Домовитися</value>
+  </data>
+  <data name="choice1_3f" xml:space="preserve">
+    <value>Напасти</value>
+  </data>
+  <data name="choice1_3m" xml:space="preserve">
+    <value>Напасти</value>
+  </data>
+  <data name="choicePic1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\choice\choicepic1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="choicePic1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\choice\choicepic1_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="choicePic1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\choice\choicepic1_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChoseSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sound\ChoseSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="field" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\field.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\game\forest.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game1Win" xml:space="preserve">
+    <value>Гравець переміг, але Вас чекає наступне випробування</value>
+  </data>
+  <data name="game2" xml:space="preserve">
+    <value>Гра триває до 15 балів</value>
+  </data>
+  <data name="game2Win" xml:space="preserve">
+    <value>Гравець переміг, історія буде буде продовжена і ви можете запитати все що завгодно у мудрого Лісу</value>
+  </data>
+  <data name="gameAnswerTopic_1" xml:space="preserve">
+    <value>Уявіть що ви</value>
+  </data>
+  <data name="gameAnswerTopic_2" xml:space="preserve">
+    <value>дайте відповідь на запитання</value>
+  </data>
+  <data name="gameAnswerTopic_3" xml:space="preserve">
+    <value>підтримайте свого товариша в грі</value>
+  </data>
+  <data name="gameDraw" xml:space="preserve">
+    <value>Нічия, починайте спочатку</value>
+  </data>
+  <data name="gameLose" xml:space="preserve">
+    <value>Ліс переміг, починайте спочатку</value>
+  </data>
+  <data name="gameOpponentName" xml:space="preserve">
+    <value>Ліс</value>
+  </data>
+  <data name="game_0" xml:space="preserve">
+    <value>Виграйте гру і історія продовжиться</value>
+  </data>
+  <data name="game_1" xml:space="preserve">
+    <value>Я роблю перший хід</value>
+  </data>
+  <data name="game_10" xml:space="preserve">
+    <value>Таааак…</value>
+  </data>
+  <data name="game_11" xml:space="preserve">
+    <value>Ми проходимо…</value>
+  </data>
+  <data name="game_12" xml:space="preserve">
+    <value>Давай відкривай дорогу</value>
+  </data>
+  <data name="game_13" xml:space="preserve">
+    <value>Це було достойно</value>
+  </data>
+  <data name="game_14" xml:space="preserve">
+    <value>Знову знову</value>
+  </data>
+  <data name="game_15" xml:space="preserve">
+    <value>За перемогою</value>
+  </data>
+  <data name="game_16" xml:space="preserve">
+    <value>За людей</value>
+  </data>
+  <data name="game_17" xml:space="preserve">
+    <value>А тепер я зроблю такий хід</value>
+  </data>
+  <data name="game_18" xml:space="preserve">
+    <value>Все вийде</value>
+  </data>
+  <data name="game_19" xml:space="preserve">
+    <value>Я починаю нервувати…</value>
+  </data>
+  <data name="game_2" xml:space="preserve">
+    <value>Нам порібна перемога</value>
+  </data>
+  <data name="game_20" xml:space="preserve">
+    <value>Та заспокойся ти…</value>
+  </data>
+  <data name="game_3" xml:space="preserve">
+    <value>Ні кроку назад</value>
+  </data>
+  <data name="game_4" xml:space="preserve">
+    <value>Як же його походити...</value>
+  </data>
+  <data name="game_5" xml:space="preserve">
+    <value>Хааа, ще ніхто не зміг</value>
+  </data>
+  <data name="game_6" xml:space="preserve">
+    <value>Ніііііі…..</value>
+  </data>
+  <data name="game_7" xml:space="preserve">
+    <value>Давай ще раз..</value>
+  </data>
+  <data name="game_8" xml:space="preserve">
+    <value>Зараз пройдемо…</value>
+  </data>
+  <data name="game_9" xml:space="preserve">
+    <value>Ніііііі…..</value>
+  </data>
+  <data name="heroesArcherThiefFemaleDescription" xml:space="preserve">
+    <value>Лучниця-крадійка - це хитрий та спритний персонаж у всесвіті підземелля і драконів. Вона вміє маніпулювати людьми. Її головна зброя - це її лук та стріли. Вона може пересуватись тихо та непомітно.
+Вона може мати здатність до точного вбивства з дистанції, досвід у підтримці прихованості, вміння відкривати замки та пастки, та навіть може володіти деякими магічними здібностями.</value>
+  </data>
+  <data name="heroesArcherThiefFemaleName" xml:space="preserve">
+    <value>Лучниця-крадійка</value>
+  </data>
+  <data name="heroesArcherThiefMaleDescription" xml:space="preserve">
+    <value>Лучник-крадій - це хитрий та спритний персонаж у всесвіті підземелля і драконів. Він вміє маніпулювати людьми. Його головна зброя - це його лук та стріли. Він може пересуватись тихо та непомітно.
+Він може мати здатність до точного вбивства з дистанції, досвід у підтримці прихованості, вміння відкривати замки та пастки, та навіть може володіти деякими магічними здібностями.</value>
+  </data>
+  <data name="heroesArcherThiefMaleName" xml:space="preserve">
+    <value>Лучник-крадій</value>
+  </data>
+  <data name="heroesKnightFemaleDescription" xml:space="preserve">
+    <value>У всесвіті підземелля і драконів лицарка може мати свої особливі риси. Вона може бути високою міцною і стрункою одночасно, володіти непохитним характером і неймовірною витривалістю. Її зброя - меч, який вона тримає в кованій залізній руці, завжди готова до бою з драконом.
+Її броня - товстий латастий панцир, в якому вона може витримати сильний удар дракона.</value>
+  </data>
+  <data name="heroesKnightFemaleName" xml:space="preserve">
+    <value>Лицарка</value>
+  </data>
+  <data name="heroesKnightMaleDescription" xml:space="preserve">
+    <value>У всесвіті підземелля і драконів лицар може мати свої особливі риси. Він може бути високим і міцним, володіти непохитним характером і неймовірною витривалістю. Його зброя - меч, який він тримає в кованій залізній руці, завжди готовий до бою з драконом.
+Його броня - товстий латастий панцир, в якому він може витримати сильний удар дракона.</value>
+  </data>
+  <data name="heroesKnightMaleName" xml:space="preserve">
+    <value>Лицар</value>
+  </data>
+  <data name="heroesMagicianFemaleDescription" xml:space="preserve">
+    <value>Чаклунка - це дуже важливий персонаж у всесвіті підземелля і драконів. Вона може мати дуже різні вигляди та вміння, залежно від того, який тип чаклунки ви обираєте. Вона має здатність оживляти мертвих та контролювати їх. Також вона може керувати природними стихіями, такими як вогонь, вода, повітря та земля. Її вигляд може бути зв'язаний з елементом, яким він володіє. Також може створювати магічні ілюзії та плутати своїх ворогів.</value>
+  </data>
+  <data name="heroesMagicianFemaleName" xml:space="preserve">
+    <value>Чаклунка</value>
+  </data>
+  <data name="heroesMagicianMaleDescription" xml:space="preserve">
+    <value>Чаклун - це дуже важливий персонаж у всесвіті підземелля і драконів. Він може мати дуже різні вигляди та вміння, залежно від того, який тип чаклуна ви обираєте. Він має здатність оживляти мертвих та контролювати їх. Також він може керувати природними стихіями, такими як вогонь, вода, повітря та земля. Його вигляд може бути зв'язаний з елементом, яким він володіє. Також може створювати магічні ілюзії та плутати своїх ворогів. </value>
+  </data>
+  <data name="heroesMagicianMaleName" xml:space="preserve">
+    <value>Чаклун</value>
+  </data>
+  <data name="mainStoryPic_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\mainstory\mainstorypic_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainStory_0" xml:space="preserve">
+    <value>Печера почала наповнюватися туманом</value>
+  </data>
+  <data name="mainStory_a_10f" xml:space="preserve">
+    <value>Лицарка зійшлася з чаклункою, щоб захистити її від нападу, підганяючи дракона до близької дистанції. </value>
+  </data>
+  <data name="mainStory_a_10m" xml:space="preserve">
+    <value>Лицар зійшовся з магом, щоб захистити його від нападу, підганяючи дракона до близької дистанції. </value>
+  </data>
+  <data name="mainStory_a_11f" xml:space="preserve">
+    <value>Лучниця використала цю можливість, щоб запустити свій знаковий постріл, який влучив прямо в серце дракона.</value>
+  </data>
+  <data name="mainStory_a_11m" xml:space="preserve">
+    <value>Лучник використав цю можливість, щоб запустити свій знаковий постріл, який влучив прямо в серце дракона.</value>
+  </data>
+  <data name="mainStory_a_12f" xml:space="preserve">
+    <value>Дракон впав на землю, витіснюючи потужну хмару диму, що заповнила повітря. </value>
+  </data>
+  <data name="mainStory_a_12m" xml:space="preserve">
+    <value>Дракон впав на землю, витіснюючи потужну хмару диму, що заповнила повітря. </value>
+  </data>
+  <data name="mainStory_a_13f" xml:space="preserve">
+    <value>Троє героїнь зійшлися разом, готові закінчити своє завдання. </value>
+  </data>
+  <data name="mainStory_a_13m" xml:space="preserve">
+    <value>Троє героїв зійшлися разом, готові закінчити своє завдання. </value>
+  </data>
+  <data name="mainStory_a_14f" xml:space="preserve">
+    <value>Лицарка підняла свій меч, чаклунка підійшла ближче до дракона, щоб перевірити його пульс, а лучниця витягнула свій ніж та вирізала зуби дракона, як трофеї.</value>
+  </data>
+  <data name="mainStory_a_14m" xml:space="preserve">
+    <value>Лицар підняв свій меч, маг підійшов ближче до дракона, щоб перевірити його пульс, а лучник витягнув свій ніж та вирізав зуби дракона, як трофеї.</value>
+  </data>
+  <data name="mainStory_a_15f" xml:space="preserve">
+    <value>У кінці битви, троє героїнь стояли поруч з тілом величного дракона, який колись був непереможним. </value>
+  </data>
+  <data name="mainStory_a_15m" xml:space="preserve">
+    <value>У кінці битви, троє героїв стояли поруч з тілом величного дракона, який колись був непереможним. </value>
+  </data>
+  <data name="mainStory_a_16f" xml:space="preserve">
+    <value>Однак тепер, завдяки змісту його знань та мудрості, яку вони вивчили під час своєї подорожі, троє героїнь змогли знайти його слабкі місця та вразити його.</value>
+  </data>
+  <data name="mainStory_a_16m" xml:space="preserve">
+    <value>Однак тепер, завдяки змісту його знань та мудрості, яку вони вивчили під час своєї подорожі, троє героїв змогли знайти його слабкі місця та вразити його.</value>
+  </data>
+  <data name="mainStory_a_17f" xml:space="preserve">
+    <value>Лицарка відзначила своїх товаришів за їхню мужність і спритність, а чаклунка виконала деякі заклинання, щоб підняти дух героїнь. </value>
+  </data>
+  <data name="mainStory_a_17m" xml:space="preserve">
+    <value>Лицар відзначив своїх товаришів за їхню мужність і спритність, а маг виконав деякі заклинання, щоб підняти дух героїв. </value>
+  </data>
+  <data name="mainStory_a_18f" xml:space="preserve">
+    <value>Лучниця знову поглянула на дракона та згадала, як вона колись відчувала страх перед цими могутніми істотами. </value>
+  </data>
+  <data name="mainStory_a_18m" xml:space="preserve">
+    <value>Лучник знову поглянув на дракона та згадав, як він колись відчував страх перед цими могутніми істотами. </value>
+  </data>
+  <data name="mainStory_a_19f" xml:space="preserve">
+    <value>Тепер, з розвинутим досвідом та знанням, вона стала більш впевненою у своїх можливостях.</value>
+  </data>
+  <data name="mainStory_a_19m" xml:space="preserve">
+    <value>Тепер, з розвинутим досвідом та знанням, він став більш впевненим у своїх можливостях.</value>
+  </data>
+  <data name="mainStory_a_1f" xml:space="preserve">
+    <value>Дракон звівся на задні ноги і заревів, коли троє героїнь наблизилися до нього.</value>
+  </data>
+  <data name="mainStory_a_1m" xml:space="preserve">
+    <value>Дракон звівся на задні ноги і заревів, коли троє героїв наблизилися до нього.</value>
+  </data>
+  <data name="mainStory_a_20f" xml:space="preserve">
+    <value>Незважаючи на те, що їхня подорож завершилася, троє героїнь були вдячні Богу дракону за те, що вони навчилися так багато від нього. </value>
+  </data>
+  <data name="mainStory_a_20m" xml:space="preserve">
+    <value>Незважаючи на те, що їхня подорож завершилася, троє героїв були вдячні Богу дракону за те, що вони навчилися так багато від нього. </value>
+  </data>
+  <data name="mainStory_a_21f" xml:space="preserve">
+    <value>Їхні пригоди з драконом можуть бути закінчені, але їхнє бажання досягти нових висот і продовжувати розвиватися ніколи не скінчиться. Вони знали, що завжди можуть знайти нових драконів для подолання та нові завдання, які зможуть виконати разом як команда.</value>
+  </data>
+  <data name="mainStory_a_21m" xml:space="preserve">
+    <value>Вони збиралися повернутися до своїх рідних міст, де вони будуть здобувати нові перемоги, використовуючи свої нові знання та досвід.</value>
+  </data>
+  <data name="mainStory_a_22f" xml:space="preserve">
+    <value>Кінець:)</value>
+  </data>
+  <data name="mainStory_a_22m" xml:space="preserve">
+    <value>Кінець:)</value>
+  </data>
+  <data name="mainStory_a_2f" xml:space="preserve">
+    <value>Лицарка схопила меч в обох руках та стрибнула уперед, готова до бою.</value>
+  </data>
+  <data name="mainStory_a_2m" xml:space="preserve">
+    <value>Лицар схопив меч в обох руках та стрибнув уперед, готовий до бою. </value>
+  </data>
+  <data name="mainStory_a_3f" xml:space="preserve">
+    <value>Чаклунка підняла свій посох і сконцентрувалася на заклинанні, підготовлюючись до атаки. </value>
+  </data>
+  <data name="mainStory_a_3m" xml:space="preserve">
+    <value>Маг підняв свій посох і сконцентрувався на заклинанні, підготовлюючись до атаки. </value>
+  </data>
+  <data name="mainStory_a_4f" xml:space="preserve">
+    <value>Лучниця натягнула свою лук і випустила стрілу в напрямку дракона.</value>
+  </data>
+  <data name="mainStory_a_4m" xml:space="preserve">
+    <value>Лучник натягнув свою лук і випустив стрілу в напрямку дракона.</value>
+  </data>
+  <data name="mainStory_a_5f" xml:space="preserve">
+    <value>Дракон розпочав атаку, битися своїми гігантськими лапами та видихаючи потужний потік вогню. </value>
+  </data>
+  <data name="mainStory_a_5m" xml:space="preserve">
+    <value>Дракон розпочав атаку, битися своїми гігантськими лапами та видихаючи потужний потік вогню. </value>
+  </data>
+  <data name="mainStory_a_6f" xml:space="preserve">
+    <value>Лицарка вдало уникнула його удару та підібралася, пробивши його мечем.</value>
+  </data>
+  <data name="mainStory_a_6m" xml:space="preserve">
+    <value>Лицар вдало уникнув його удару та підібрався, пробивши його мечем.</value>
+  </data>
+  <data name="mainStory_a_7f" xml:space="preserve">
+    <value>Чаклунка витягнула свої руки і кинула могутнє заклинання, що виручило його товариша, а також завдало збитку дракону.</value>
+  </data>
+  <data name="mainStory_a_7m" xml:space="preserve">
+    <value>Маг витягнув свої руки і кинув могутній заклинання, що виручило його товариша, а також завдало збитку дракону. </value>
+  </data>
+  <data name="mainStory_a_8f" xml:space="preserve">
+    <value>Лучниця продовжувала атакувати дракона, з надією, що вона зможе знайти слабке місце в його лусці.</value>
+  </data>
+  <data name="mainStory_a_8m" xml:space="preserve">
+    <value>Лучник продовжував атакувати дракона, з надією, що він зможе знайти слабке місце в його лусці.</value>
+  </data>
+  <data name="mainStory_a_9f" xml:space="preserve">
+    <value>Дракон знову розпочав атаку, тільки цього разу він обернувся до чаклунки та почав на неї нападати.</value>
+  </data>
+  <data name="mainStory_a_9m" xml:space="preserve">
+    <value>Дракон знову розпочав атаку, тільки цього разу він обернувся до мага та почав на нього нападати.</value>
+  </data>
+  <data name="mainStory_c_10f" xml:space="preserve">
+    <value> На вході, вони зустріли величезний кам'яний обеліск, на якому було вирізане зображення дракона, та надпис: "Хто сміє ввійти, той зіткнеться зі мною"</value>
+  </data>
+  <data name="mainStory_c_10m" xml:space="preserve">
+    <value> На вході, вони зустріли величезний кам'яний обеліск, на якому було вирізане зображення дракона, та надпис: "Хто сміє ввійти, той зіткнеться зі мною"</value>
+  </data>
+  <data name="mainStory_c_11f" xml:space="preserve">
+    <value>Троє героїнь вирішили розділитися та найкраще підготуватися до зустрічі з драконом.</value>
+  </data>
+  <data name="mainStory_c_11m" xml:space="preserve">
+    <value>Троє героїв вирішили розділитися та найкраще підготуватися до зустрічі з драконом.</value>
+  </data>
+  <data name="mainStory_c_12f" xml:space="preserve">
+    <value>Лицарка приступила до тренувань зі своїм мечем, чаклунка практикувала закляття, а лучниця вдосконалювала свої навички стрільби з лука.</value>
+  </data>
+  <data name="mainStory_c_12m" xml:space="preserve">
+    <value>Лицар приступив до тренувань зі своїм мечем, маг практикував закляття, а лучник вдосконалював свої навички стрільби з лука.</value>
+  </data>
+  <data name="mainStory_c_13f" xml:space="preserve">
+    <value>Нарешті, настав день, коли героїні були готові до зустрічі з драконом.</value>
+  </data>
+  <data name="mainStory_c_13m" xml:space="preserve">
+    <value>Нарешті, настав день, коли герої були готові до зустрічі з драконом. </value>
+  </data>
+  <data name="mainStory_c_14f" xml:space="preserve">
+    <value>Вони пройшли в глибини печери та зустріли Бога Дракона. Він був надзвичайно вражаючим: величезні крила, димлячий ніздря та блискучі чорні очі.</value>
+  </data>
+  <data name="mainStory_c_14m" xml:space="preserve">
+    <value>Вони пройшли в глибини печери та зустріли Бога Дракона. Він був надзвичайно вражаючим: величезні крила, димлячий ніздря та блискучі чорні очі.</value>
+  </data>
+  <data name="mainStory_c_15f" xml:space="preserve">
+    <value>Героїні зупинилися перед драконом, і їх очі нарешті зустрілися. </value>
+  </data>
+  <data name="mainStory_c_15m" xml:space="preserve">
+    <value>Герої зупинилися перед драконом, і їх очі нарешті зустрілися. </value>
+  </data>
+  <data name="mainStory_c_16f" xml:space="preserve">
+    <value>Після моменту німого мовчання, лучниця зіткнулася з драконом першою. Вона зуміла вразити дракона своїми стрілами, поки Бог Дракон зосереджувався на стратегії боротьби.</value>
+  </data>
+  <data name="mainStory_c_16m" xml:space="preserve">
+    <value>Після моменту німого мовчання, лучник зіткнувся з драконом першим. Він зумів вразити дракона своїми стрілами, поки Бог Дракон зосереджувався на стратегії боротьби.</value>
+  </data>
+  <data name="mainStory_c_17f" xml:space="preserve">
+    <value>Чаклунка приєднався до лучника, використовуючи свої закляття, щоб допомогти в атаках.</value>
+  </data>
+  <data name="mainStory_c_17m" xml:space="preserve">
+    <value>Маг приєднався до лучника, використовуючи свої закляття, щоб допомогти в атаках. </value>
+  </data>
+  <data name="mainStory_c_18f" xml:space="preserve">
+    <value>Лицарка зблизилася з драконом та приступила до нападу на ближній дистанції. Вони змогли відчути, що дракон стає слабким.</value>
+  </data>
+  <data name="mainStory_c_18m" xml:space="preserve">
+    <value>Лицар зблизився з драконом та приступив до нападу на ближній дистанції. Вони змогли відчути, що дракон стає слабким.</value>
+  </data>
+  <data name="mainStory_c_19f" xml:space="preserve">
+    <value>Звичайно, відповів Бог дракон, "Ви маєте право здобути мої скарби. Але не так просто - перш за все, вам треба вирішити мій головоломку."</value>
+  </data>
+  <data name="mainStory_c_19m" xml:space="preserve">
+    <value>Звичайно, відповів Бог дракон, "Ви маєте право здобути мої скарби. Але не так просто - перш за все, вам треба вирішити мій головоломку."</value>
+  </data>
+  <data name="mainStory_c_1f" xml:space="preserve">
+    <value>Герої відчували, що перемогти його буде дуже важко, тому вони вирішили спробувати домовитися з ним.</value>
+  </data>
+  <data name="mainStory_c_1m" xml:space="preserve">
+    <value>Герої відчували, що перемогти його буде дуже важко, тому вони вирішили спробувати домовитися з ним.</value>
+  </data>
+  <data name="mainStory_c_20f" xml:space="preserve">
+    <value>Головоломку? Здивувалася чаклунка.</value>
+  </data>
+  <data name="mainStory_c_20m" xml:space="preserve">
+    <value>Головоломку? Здивувався маг.</value>
+  </data>
+  <data name="mainStory_c_21f" xml:space="preserve">
+    <value>Так, моя головоломка, продовжив Бог дракон. "Я хочу, щоб ви знайшли три ключі, що відкривають мої скарби."</value>
+  </data>
+  <data name="mainStory_c_21m" xml:space="preserve">
+    <value>Так, моя головоломка, продовжив Бог дракон. "Я хочу, щоб ви знайшли три ключі, що відкривають мої скарби."</value>
+  </data>
+  <data name="mainStory_c_22f" xml:space="preserve">
+    <value>Один ключ захований у кожного з вас. Але щоб ви змогли знайти ключі, вам треба розв'язати мою головоломку.</value>
+  </data>
+  <data name="mainStory_c_22m" xml:space="preserve">
+    <value>Один ключ захований у кожного з вас. Але щоб ви змогли знайти ключі, вам треба розв'язати мою головоломку.</value>
+  </data>
+  <data name="mainStory_c_23f" xml:space="preserve">
+    <value>Якій головоломці? запитала лицарка.</value>
+  </data>
+  <data name="mainStory_c_23m" xml:space="preserve">
+    <value>Якій головоломці? запитав лицар.</value>
+  </data>
+  <data name="mainStory_c_24f" xml:space="preserve">
+    <value>Це складна головоломка, відповів Бог дракон. "Але, якщо ви розумні і маєте силу, я впевнений, що ви зможете її розв'язати. Почнемо."</value>
+  </data>
+  <data name="mainStory_c_24m" xml:space="preserve">
+    <value>Це складна головоломка, відповів Бог дракон. "Але, якщо ви розумні і маєте силу, я впевнений, що ви зможете її розв'язати. Почнемо."</value>
+  </data>
+  <data name="mainStory_c_25f" xml:space="preserve">
+    <value>Бог дракон описав головоломку - головоломку, яку треба розв'язати, щоб знайти три ключі.</value>
+  </data>
+  <data name="mainStory_c_25m" xml:space="preserve">
+    <value>Бог дракон описав головоломку - головоломку, яку треба розв'язати, щоб знайти три ключі.</value>
+  </data>
+  <data name="mainStory_c_26f" xml:space="preserve">
+    <value>Героїні працювали разом, намагаючись розгадати головоломку.</value>
+  </data>
+  <data name="mainStory_c_26m" xml:space="preserve">
+    <value>Герої працювали разом, намагаючись розгадати головоломку.</value>
+  </data>
+  <data name="mainStory_c_27f" xml:space="preserve">
+    <value>Лицарка знала, як вирішувати логічні завдання, чаклунка використовувала свою магію, а лучниця відмінно вгадувала.</value>
+  </data>
+  <data name="mainStory_c_27m" xml:space="preserve">
+    <value>Лицар знав, як вирішувати логічні завдання, маг використовував свою магію, а лучник був відмінним вгадувачем.</value>
+  </data>
+  <data name="mainStory_c_28f" xml:space="preserve">
+    <value>Після години важкої роботи, героїні знайшли три ключі і відкрили скарбницю Бога дракона. Скарбниця була наповнена золотом, діамантами і іншими коштовностями.</value>
+  </data>
+  <data name="mainStory_c_28m" xml:space="preserve">
+    <value>Після години важкої роботи, герої знайшли три ключі і відкрили скарбницю Бога дракона. Скарбниця була наповнена золотом, діамантами і іншими коштовностями.</value>
+  </data>
+  <data name="mainStory_c_29f" xml:space="preserve">
+    <value>Вітаю, сказав Бог дракон. "Ви вирішили мою головоломку і знайшли мої ключі. Я вірю, що ви заслужили ці коштовності."</value>
+  </data>
+  <data name="mainStory_c_29m" xml:space="preserve">
+    <value>Вітаю, сказав Бог дракон. "Ви вирішили мою головоломку і знайшли мої ключі. Я вірю, що ви заслужили ці коштовності."</value>
+  </data>
+  <data name="mainStory_c_2f" xml:space="preserve">
+    <value>Лицарка вийшла на середину печери і вигукнула: "Боже Драконе! Ми не прийшли сюди, щоб вас вбивати. Ми хочемо домовитися з вами!".</value>
+  </data>
+  <data name="mainStory_c_2m" xml:space="preserve">
+    <value>Лицар вийшов на середину печери і вигукнув: "Боже Драконе! Ми не прийшли сюди, щоб вас вбивати. Ми хочемо домовитися з вами!".</value>
+  </data>
+  <data name="mainStory_c_30f" xml:space="preserve">
+    <value>Героїні були раді перемозі. Вони взяли скарби і покинули печеру. </value>
+  </data>
+  <data name="mainStory_c_30m" xml:space="preserve">
+    <value>Герої були раді перемозі. Вони взяли скарби і покинули печеру. </value>
+  </data>
+  <data name="mainStory_c_31f" xml:space="preserve">
+    <value>Перед виходом Бог дракон сказав їм: Я оберігатиму Ваше поселення від інших драконів. Прощавайте</value>
+  </data>
+  <data name="mainStory_c_31m" xml:space="preserve">
+    <value>Перед виходом Бог дракон сказав їм: Я оберігатиму Ваше поселення від інших драконів. Прощавайте</value>
+  </data>
+  <data name="mainStory_c_32f" xml:space="preserve">
+    <value>Кінець</value>
+  </data>
+  <data name="mainStory_c_32m" xml:space="preserve">
+    <value>Кінець</value>
+  </data>
+  <data name="mainStory_c_3f" xml:space="preserve">
+    <value>Дракон спочатку не вірив героям, але його цікавість переважила.</value>
+  </data>
+  <data name="mainStory_c_3m" xml:space="preserve">
+    <value>Дракон спочатку не вірив героям, але його цікавість переважила.</value>
+  </data>
+  <data name="mainStory_c_4f" xml:space="preserve">
+    <value>І він злетів зі свого місця на підлозі. "Що ж ви хочете?" - запитав він з гнівом у голосі.</value>
+  </data>
+  <data name="mainStory_c_4m" xml:space="preserve">
+    <value>І він злетів зі свого місця на підлозі. "Що ж ви хочете?" - запитав він з гнівом у голосі.</value>
+  </data>
+  <data name="mainStory_c_5f" xml:space="preserve">
+    <value>Ми хочемо знайти скарби цієї печери, але не хочемо звичайної битви. Можливо, ми можемо дійти якоїсь угоди?, - запропонувала чаклунка.</value>
+  </data>
+  <data name="mainStory_c_5m" xml:space="preserve">
+    <value>Ми хочемо знайти скарби цієї печери, але не хочемо звичайної битви. Можливо, ми можемо дійти якоїсь угоди?, - запропонував маг.</value>
+  </data>
+  <data name="mainStory_c_6f" xml:space="preserve">
+    <value>Дракон подумав трохи і погодився. "Добре, але ви повинні допомогти мені розкрити деякі таємниці цієї печери", - сказав він</value>
+  </data>
+  <data name="mainStory_c_6m" xml:space="preserve">
+    <value>Дракон подумав трохи і погодився. "Добре, але ви повинні допомогти мені розкрити деякі таємниці цієї печери", - сказав він</value>
+  </data>
+  <data name="mainStory_c_7f" xml:space="preserve">
+    <value>За декілька днів, після початку перемовин, Бог Дракон погодився з умовами героїнь.</value>
+  </data>
+  <data name="mainStory_c_7m" xml:space="preserve">
+    <value>За декілька днів, після початку перемовин, Бог Дракон погодився з умовами героїв.</value>
+  </data>
+  <data name="mainStory_c_8f" xml:space="preserve">
+    <value>Вони змогли зібрати всі необхідні речі і обладнання, і, попрощавшись з селом, вирушили до печери.</value>
+  </data>
+  <data name="mainStory_c_8m" xml:space="preserve">
+    <value>Вони змогли зібрати всі необхідні речі і обладнання, і, попрощавшись з селом, вирушили до печери.</value>
+  </data>
+  <data name="mainStory_c_9f" xml:space="preserve">
+    <value>Після кількох днів мандрівки, вони досягли місця, де знаходилася печера.</value>
+  </data>
+  <data name="mainStory_c_9m" xml:space="preserve">
+    <value>Після кількох днів мандрівки, вони досягли місця, де знаходилася печера.</value>
+  </data>
+  <data name="mainStory_r_10f" xml:space="preserve">
+    <value>Дракон подумав про пропозицію і, узгодивши з героїнями умови угоди, відкрив їм доступ до своєї скарбниці.</value>
+  </data>
+  <data name="mainStory_r_10m" xml:space="preserve">
+    <value>Дракон подумав про пропозицію і, узгодивши з героями умови угоди, відкрив їм доступ до своєї скарбниці.</value>
+  </data>
+  <data name="mainStory_r_11f" xml:space="preserve">
+    <value>Героїні були захоплені тим, що їм вдалося обдурити Бога дракона, і з радістю збирали скарби. </value>
+  </data>
+  <data name="mainStory_r_11m" xml:space="preserve">
+    <value>Герої були захоплені тим, що їм вдалося обдурити Бога дракона, і з радістю збирали скарби. </value>
+  </data>
+  <data name="mainStory_r_12f" xml:space="preserve">
+    <value>Але у цей момент дракон зрозумів, що героїні хочуть його обманути. </value>
+  </data>
+  <data name="mainStory_r_12m" xml:space="preserve">
+    <value>Але у цей момент дракон зрозумів, що герої хочуть його обманути. </value>
+  </data>
+  <data name="mainStory_r_13f" xml:space="preserve">
+    <value>Він розкричався і піднявся в повітря, готовий напасти на них. </value>
+  </data>
+  <data name="mainStory_r_13m" xml:space="preserve">
+    <value>Він розкричався і піднявся в повітря, готовий напасти на них. </value>
+  </data>
+  <data name="mainStory_r_14f" xml:space="preserve">
+    <value>Лицарка витягнула свій меч і намагалася ударити дракона, але він легко ухилявся.</value>
+  </data>
+  <data name="mainStory_r_14m" xml:space="preserve">
+    <value>Лицар витягнув свій меч і намагався ударити дракона, але він легко ухилявся.</value>
+  </data>
+  <data name="mainStory_r_15f" xml:space="preserve">
+    <value>Чаклунка, у біді, запустила свої закляття, але дракон зрозумів, що це його хочуть обдурити.</value>
+  </data>
+  <data name="mainStory_r_15m" xml:space="preserve">
+    <value>Маг, у біді, запустив свої закляття, але дракон зрозумів, що це його хочуть обдурити. </value>
+  </data>
+  <data name="mainStory_r_16f" xml:space="preserve">
+    <value>Вона вихопила мага з-за куща і кинув його на скарби, вбивши її.</value>
+  </data>
+  <data name="mainStory_r_16m" xml:space="preserve">
+    <value>Він вихопив мага з-за куща і кинув його на скарби, вбивши його. </value>
+  </data>
+  <data name="mainStory_r_17f" xml:space="preserve">
+    <value>Лучниця почала стріляти з лука, але її стріли не могли пробити шкіру дракона.</value>
+  </data>
+  <data name="mainStory_r_17m" xml:space="preserve">
+    <value>Лучник почав стріляти з лука, але його стріли не могли пробити шкіру дракона.</value>
+  </data>
+  <data name="mainStory_r_18f" xml:space="preserve">
+    <value>Після того, як чаклунка була знищена драконом, лицарка та лучниця побачили свою можливість в бою з Богом драконом. </value>
+  </data>
+  <data name="mainStory_r_18m" xml:space="preserve">
+    <value>Після того, як маг був знищений драконом, лицар та лучник побачили свою можливість в бою з Богом драконом. </value>
+  </data>
+  <data name="mainStory_r_19f" xml:space="preserve">
+    <value>Вони підійшли до нього, показуючи, що вони двоє значно сильніші, ніж одинока чаклунка. </value>
+  </data>
+  <data name="mainStory_r_19m" xml:space="preserve">
+    <value>Вони підійшли до нього, показуючи, що вони двоє значно сильніші, ніж одинокий маг. </value>
+  </data>
+  <data name="mainStory_r_1f" xml:space="preserve">
+    <value>Лицарка, чаклунка і лучниця були готові до бою, але вони також розуміли, що протистояти Богу дракону без плану було б надзвичайно небезпечно.</value>
+  </data>
+  <data name="mainStory_r_1m" xml:space="preserve">
+    <value>Лицар, маг і лучник були готові до бою, але вони також розуміли, що протистояти Богу дракону без плану було б надзвичайно небезпечно. </value>
+  </data>
+  <data name="mainStory_r_20f" xml:space="preserve">
+    <value>Дракон здивувався, але відповів, що не думає, що це зробить їх переможницями. Однак, він дав їм шанс боротися з ним у бою.</value>
+  </data>
+  <data name="mainStory_r_20m" xml:space="preserve">
+    <value>Дракон здивувався, але відповів, що не думає, що це зробить їх переможцями. Однак, він дав їм шанс боротися з ним у бою.</value>
+  </data>
+  <data name="mainStory_r_21f" xml:space="preserve">
+    <value>Лицарка та лучниця почали битися з драконом, використовуючи всі свої знання та навички.</value>
+  </data>
+  <data name="mainStory_r_21m" xml:space="preserve">
+    <value>Лицар та лучник почали битися з драконом, використовуючи всі свої знання та навички.</value>
+  </data>
+  <data name="mainStory_r_22f" xml:space="preserve">
+    <value>Вони були дуже досвідченими воїтельницями, але дракон був надзвичайно могутнім і використовував свою силу та вогненні дихання, щоб захистити себе.</value>
+  </data>
+  <data name="mainStory_r_22m" xml:space="preserve">
+    <value>Вони були дуже досвідченими воїнами, але дракон був надзвичайно могутнім і використовував свою силу та вогненні дихання, щоб захистити себе.</value>
+  </data>
+  <data name="mainStory_r_23f" xml:space="preserve">
+    <value>Після довгого й важкого бою, дракон зміг знищити обох героїнь, випустивши потужну хмару вогню на їхній напрямок.</value>
+  </data>
+  <data name="mainStory_r_23m" xml:space="preserve">
+    <value>Після довгого й важкого бою, дракон зміг знищити обох героїв, випустивши потужну хмару вогню на їхній напрямок. </value>
+  </data>
+  <data name="mainStory_r_24f" xml:space="preserve">
+    <value>Хоча вони були дуже відважними, їх навички та здібності не були достатніми, щоб здолати дракона. </value>
+  </data>
+  <data name="mainStory_r_24m" xml:space="preserve">
+    <value>Хоча вони були дуже відважними, їх навички та здібності не були достатніми, щоб здолати дракона. </value>
+  </data>
+  <data name="mainStory_r_25f" xml:space="preserve">
+    <value>Героїні померли в бою, але їхній подвиг залишився в пам'яті людей на довгі роки.</value>
+  </data>
+  <data name="mainStory_r_25m" xml:space="preserve">
+    <value>Герої померли в бою, але їхній подвиг залишився в пам'яті людей на довгі роки.</value>
+  </data>
+  <data name="mainStory_r_26f" xml:space="preserve">
+    <value>Дракон, задоволений своєю перемогою, повернувся до своєї печери, щоб відпочити та спочатку збирати сили для наступного бою. </value>
+  </data>
+  <data name="mainStory_r_26m" xml:space="preserve">
+    <value>Дракон, задоволений своєю перемогою, повернувся до своєї печери, щоб відпочити та спочатку збирати сили для наступного бою. </value>
+  </data>
+  <data name="mainStory_r_27f" xml:space="preserve">
+    <value>Кінець :(</value>
+  </data>
+  <data name="mainStory_r_27m" xml:space="preserve">
+    <value>Кінець :(</value>
+  </data>
+  <data name="mainStory_r_2f" xml:space="preserve">
+    <value>Отже, вони вирішили обдурити дракона.</value>
+  </data>
+  <data name="mainStory_r_2m" xml:space="preserve">
+    <value>Отже, вони вирішили обдурити дракона.</value>
+  </data>
+  <data name="mainStory_r_3f" xml:space="preserve">
+    <value>Чаклунка вигадала хитрий план, і героїні розпочали його втілювати. </value>
+  </data>
+  <data name="mainStory_r_3m" xml:space="preserve">
+    <value>Маг вигадав хитрий план, і герої розпочали його втілювати. </value>
+  </data>
+  <data name="mainStory_r_4f" xml:space="preserve">
+    <value>Лицарка підійшов до печери, тримаючи в руці меча, і закричала на весь голос: "О Боже драконе, ми прийшли до тебе з пропозицією!"</value>
+  </data>
+  <data name="mainStory_r_4m" xml:space="preserve">
+    <value>Лицар підійшов до печери, тримаючи в руці меча, і закричав на весь голос: "О Боже драконе, ми прийшли до тебе з пропозицією!"</value>
+  </data>
+  <data name="mainStory_r_5f" xml:space="preserve">
+    <value>Дракон здивувався і підійшов ближче до входу до своєї печери. "Що ви хочете?" - проговорив дракон.</value>
+  </data>
+  <data name="mainStory_r_5m" xml:space="preserve">
+    <value>Дракон здивувався і підійшов ближче до входу до своєї печери. "Що ви хочете?" - проговорив дракон.</value>
+  </data>
+  <data name="mainStory_r_6f" xml:space="preserve">
+    <value>Ми хочемо запропонувати тобі угоду, Боже драконе, - відповіла чаклунка, виступаючи на передній план.</value>
+  </data>
+  <data name="mainStory_r_6m" xml:space="preserve">
+    <value>Ми хочемо запропонувати тобі угоду, Боже драконе, - відповів маг, виступаючи на передній план. </value>
+  </data>
+  <data name="mainStory_r_7f" xml:space="preserve">
+    <value>Ми можемо допомогти тобі у твоєму боротьбі з людьми, які завжди намагаються вбити тебе, а взамін ти можеш дозволити нам вільний доступ до твоєї скарбниці.</value>
+  </data>
+  <data name="mainStory_r_7m" xml:space="preserve">
+    <value>Ми можемо допомогти тобі у твоєму боротьбі з людьми, які завжди намагаються вбити тебе, а взамін ти можеш дозволити нам вільний доступ до твоєї скарбниці.</value>
+  </data>
+  <data name="mainStory_r_8f" xml:space="preserve">
+    <value>Як я можу бути впевнений, що ви не обдурите мене? - запитав дракон.</value>
+  </data>
+  <data name="mainStory_r_8m" xml:space="preserve">
+    <value>Як я можу бути впевнений, що ви не обдурите мене? - запитав дракон.</value>
+  </data>
+  <data name="mainStory_r_9f" xml:space="preserve">
+    <value>Ми можемо дати тобі нашу слово, Боже драконе, або зробити клятву на наших батьків, - сказала лицарка, підтримуючи чаклунку.</value>
+  </data>
+  <data name="mainStory_r_9m" xml:space="preserve">
+    <value>Ми можемо дати тобі нашу слово, Боже драконе, або зробити клятву на наших батьків, - сказав лицар, підтримуючи мага.</value>
+  </data>
+  <data name="pers1fBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\heroes\big\pers1fbig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pers1mBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\heroes\big\pers1mbig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pers2fBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\heroes\big\pers2fbig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pers2mBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\heroes\big\pers2mbig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pers3fBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\heroes\big\pers3fbig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pers3mBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\heroes\big\pers3mbig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\ico\pic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sound\Plot1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sentenceCommon_0" xml:space="preserve">
+    <value>Вітаю Вас у чарівному всесвіті Підземелля і Дракони</value>
+  </data>
+  <data name="sentenceCommon_1" xml:space="preserve">
+    <value>Сьогодні Ви зіграєте в захоплюючу гру</value>
+  </data>
+  <data name="sentenceCommon_2" xml:space="preserve">
+    <value>Тільки від Вас залежить чи досягене ви мети</value>
+  </data>
+  <data name="sentenceCommon_3" xml:space="preserve">
+    <value>І виживете в світі пригод і небезпеки</value>
+  </data>
+  <data name="sentenceCommon_4" xml:space="preserve">
+    <value>Надалі вкажіть тип вашого персонажу!</value>
+  </data>
+  <data name="sentenceCommon_5" xml:space="preserve">
+    <value>Чоловік</value>
+  </data>
+  <data name="sentenceCommon_6" xml:space="preserve">
+    <value>Жінка</value>
+  </data>
+  <data name="sentenceCommon_7" xml:space="preserve">
+    <value>Оберіть стать вашого персонажу</value>
+  </data>
+  <data name="sentenceCommon_8" xml:space="preserve">
+    <value>Виберіть героя</value>
+  </data>
+  <data name="sentenceCommon_9" xml:space="preserve">
+    <value>Введіть ім'я персонажу</value>
+  </data>
+  <data name="StartSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Sound\StartSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="storyPic_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storyPic_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\pictures\story\storypic_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="story_10f" xml:space="preserve">
+    <value>І тут на один з квадратів впало дві гілки навхрест. Потрібно було намалювати коло</value>
+  </data>
+  <data name="story_10m" xml:space="preserve">
+    <value>І тут на один з квадратів впало дві гілки навхрест. Потрібно було намалювати коло</value>
+  </data>
+  <data name="story_11f" xml:space="preserve">
+    <value>Троє героїнь заблукали у підземеллях і зустріли дивовижного дракона. Він перший з Богів сумісної крові, що нападав на їхнє поселення</value>
+  </data>
+  <data name="story_11m" xml:space="preserve">
+    <value>Троє героїв заблукали у підземеллях і зустріли дивовижного дракона. Він перший з Богів сумісної крові, що нападав на їхнє поселення</value>
+  </data>
+  <data name="story_12f" xml:space="preserve">
+    <value>Його звуть Смауг, і він оберігає скарби, які зберігалися у глибинах підземелля.</value>
+  </data>
+  <data name="story_12m" xml:space="preserve">
+    <value>Його звуть Смауг, і він оберігає скарби, які зберігалися у глибинах підземелля.</value>
+  </data>
+  <data name="story_13f" xml:space="preserve">
+    <value>Хто з Вас людей тут головна? - Запитав Дракон</value>
+  </data>
+  <data name="story_13m" xml:space="preserve">
+    <value>Хто з Вас людей тут головний? - Запитав Дракон</value>
+  </data>
+  <data name="story_14f" xml:space="preserve">
+    <value>Чарівна {0} зробила крок вперед і сказала</value>
+  </data>
+  <data name="story_14m" xml:space="preserve">
+    <value>Мужній {0} зробив крок вперед і сказав</value>
+  </data>
+  <data name="story_15f" xml:space="preserve">
+    <value>Всі ми тут рівні</value>
+  </data>
+  <data name="story_15m" xml:space="preserve">
+    <value>Всі ми тут рівні</value>
+  </data>
+  <data name="story_16f" xml:space="preserve">
+    <value>Значить разом і загинете якщо наміри ваші темні! - Сказав Дракон</value>
+  </data>
+  <data name="story_16m" xml:space="preserve">
+    <value>Значить разом і загинете якщо наміри ваші темні! - Сказав Дракон</value>
+  </data>
+  <data name="story_17f" xml:space="preserve">
+    <value>{0} твердо відповіла Смаугу</value>
+  </data>
+  <data name="story_17m" xml:space="preserve">
+    <value>{0} твердо відповів Смаугу</value>
+  </data>
+  <data name="story_18f" xml:space="preserve">
+    <value>Ми впевнені в нашому виборі.</value>
+  </data>
+  <data name="story_18m" xml:space="preserve">
+    <value>Ми впевнені в нашому виборі.</value>
+  </data>
+  <data name="story_1f" xml:space="preserve">
+    <value>У всесвіті підземелля і драконів відбувся страшний катаклізм.</value>
+  </data>
+  <data name="story_1m" xml:space="preserve">
+    <value>У всесвіті підземелля і драконів відбувся страшний катаклізм.</value>
+  </data>
+  <data name="story_2f" xml:space="preserve">
+    <value>Давні боги прокинулися від сну і розпочали війну між собою, використовуючи в якості зброї саме драконів.</value>
+  </data>
+  <data name="story_2m" xml:space="preserve">
+    <value>Давні боги прокинулися від сну і розпочали війну між собою, використовуючи в якості зброї саме драконів.</value>
+  </data>
+  <data name="story_3f" xml:space="preserve">
+    <value>Захоплені жахом жителі країни відправлялись у підземелля, щоб там знайти притулок і вижити.</value>
+  </data>
+  <data name="story_3m" xml:space="preserve">
+    <value>Захоплені жахом жителі країни відправлялись у підземелля, щоб там знайти притулок і вижити.</value>
+  </data>
+  <data name="story_4f" xml:space="preserve">
+    <value>В цьому темному світі з'явилися три героїні, які зрозуміли, що не можуть лишити своїх співгромадян на загибель. </value>
+  </data>
+  <data name="story_4m" xml:space="preserve">
+    <value>В цьому темному світі з'явилися три героя, які зрозуміли, що не можуть лишити своїх співгромадян на загибель. </value>
+  </data>
+  <data name="story_5f" xml:space="preserve">
+    <value>Лицарка, чаклунка і лучниця вирішили об'єднатись, щоб боротись зі злом і знайти спосіб зупинити війну богів.</value>
+  </data>
+  <data name="story_5m" xml:space="preserve">
+    <value>Лицар, чаклун і лучник-крадій вирішили об'єднатись, щоб боротись зі злом і знайти спосіб зупинити війну богів.</value>
+  </data>
+  <data name="story_6f" xml:space="preserve">
+    <value>Шлях героїнь розпочався з околиць найближчої печери...</value>
+  </data>
+  <data name="story_6m" xml:space="preserve">
+    <value>Шлях героїв розпочався з околиць найближчої печери...</value>
+  </data>
+  <data name="story_7f" xml:space="preserve">
+    <value>Перед печерою розкинулася галявина ідеально квадратної форми з віковими деревами навкруги</value>
+  </data>
+  <data name="story_7m" xml:space="preserve">
+    <value>Перед печерою розкинулася галявина ідеально квадратної форми з віковими деревами навкруги</value>
+  </data>
+  <data name="story_8f" xml:space="preserve">
+    <value>Вхід в печеру був закритий ліанами які не піддавалися впливу ні фізичному, ні магічному</value>
+  </data>
+  <data name="story_8m" xml:space="preserve">
+    <value>Вхід в печеру був закритий ліанами які не піддавалися впливу ні фізичному, ні магічному</value>
+  </data>
+  <data name="story_9f" xml:space="preserve">
+    <value>Від дерев долунало "відгадай загадку і пропустимо..."</value>
+  </data>
+  <data name="story_9m" xml:space="preserve">
+    <value>Від дерев долунало "відгадай загадку і пропустимо..."</value>
+  </data>
+  <data name="sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pictures\Game\wood.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
